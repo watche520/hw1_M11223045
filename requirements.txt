@@ -1,0 +1,14 @@
+#  Install the following packages with: pip install -r requirements.txt
+
+# Deep Learning Framework
+tensorflow
+
+# Data Processing
+numpy
+pandas
+
+# Machine Learning Tools
+scikit-learn
+
+# Data Visualization
+matplotlib
