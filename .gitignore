@@ -1,0 +1,6 @@
+# output data
+*.csv
+HW1_2/
+
+# virtualenv
+venv/
