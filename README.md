@@ -156,33 +156,15 @@ W-->X
 ```
 ### 評分
 分類問題：
-$$
-Accuracy = (TP + TN) / (TP + TN + FP + FN)
-$$
-$$
-Precision = TP / (TP + FP)
-$$
-$$
-Recall = TP / (TP + FN)
-$$
-$$
-F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
-$$
-$$
-Categorical Cross Entropy（用於多分類任務） = -∑(y_i * log(p_i))
-$$
+$$Accuracy = (TP + TN) / (TP + TN + FP + FN)$$
+$$Precision = TP / (TP + FP)$$
+$$Recall = TP / (TP + FN)$$
+$$F1 Score = 2 * (Precision * Recall) / (Precision + Recall)$$
+$$Categorical Cross Entropy（用於多分類任務） = -∑(y_i * log(p_i))$$
 回歸問題：
-$$
-  MSE = (1/n) * Σ(y_i - ŷ_i)^2
-$$
-$$
-  MAE = (1/n) * Σ|y_i - ŷ_i|
-$$
-$$
-  MAPE = (1/n) * Σ(|y_i - ŷ_i| / |y_i|) * 100%
-$$
-$$
-  RMSE = √(MSE)
-$$
+$$MSE = (1/n) * Σ(y_i - ŷ_i)^2$$
+$$MAE = (1/n) * Σ|y_i - ŷ_i|$$
+$$MAPE = (1/n) * Σ(|y_i - ŷ_i| / |y_i|) * 100%$$
+$$RMSE = √(MSE)$$
 ### 結論
 實驗結果顯示，Adam優化器在多個任務中提供了最佳性能，而 ReLU 激活函數由於其非飽和特性，有助於改善模型的學習速度和準確度。此外，合理的神經元數量和隱藏 層數量能夠平衡模型的複雜度和擬合能力，防止過擬合同時保持良好的泛化能力。 數據前處理技術如正規化亦被證明對提升模型性能有顯著效果。
